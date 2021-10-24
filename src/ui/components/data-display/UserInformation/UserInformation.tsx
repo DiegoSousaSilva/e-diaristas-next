@@ -11,7 +11,7 @@ interface UserInformationProps {
   picture: string;
   name: string;
   rating: number;
-  description: string;
+  description?: string;
 }
 //https://github.com/DiegoSousaSilva.png
 

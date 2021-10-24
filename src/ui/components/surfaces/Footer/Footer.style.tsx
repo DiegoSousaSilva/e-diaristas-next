@@ -19,11 +19,6 @@ export const FooterContainer = styled(Container)`
   }
 `;
 
-export const FooterTitle = styled((props) => (
-  <Typography component={"h2"} variant={"body2"} {...props} />
-))`
-  font-weight: bold;
-`;
 export const AppList = styled("ul")`
   list-style-type: none;
   padding: 0;
@@ -33,4 +28,10 @@ export const AppList = styled("ul")`
   img {
     width: 122px;
   }
+`;
+
+export const FooterTitle = styled((props) => (
+  <Typography component={"h2"} variant={"body2"} {...props} />
+))`
+  font-weight: bold;
 `;
